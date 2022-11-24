@@ -1,0 +1,121 @@
+
+$btn-color: #9AC8EB;
+$p-color: #999999;
+$card-color:#DDECF5;
+$txt-color: #4CB2E5;
+
+@font-face {
+    font-family: "GeneralSans-Medium";
+    src: url(../fonts/GeneralSans-Medium.otf);
+  }
+
+
+.tiny-left {
+
+    background: url(/images/login-left.png) no-repeat;
+    background-size: contain;
+    font-family: "GeneralSans-Medium";
+
+    
+
+    .tiny-center {
+        background: url(/images/login.png) no-repeat center;
+        background-size: contain;
+
+    }
+
+    .forget-center {
+        background: url(/images/forget-center.png) no-repeat center;
+        background-size: contain;
+
+    }
+
+    .resend-center {
+        background: url(/images/resend-center.png) no-repeat center;
+        background-size: contain;
+
+    }
+    p{
+        color: $p-color;
+        .resend{
+            color: $txt-color;
+        }
+    }
+
+}
+
+.tiny-right {
+    background: url(/images/login-right.png) no-repeat right;
+    background-size: contain;
+}
+
+@media screen and (max-width: 1100px) {
+    .tiny-left {
+      background: none;
+    }
+  }
+
+@media screen and (max-width: 1100px) {
+    .tiny-right {
+      background: none;
+    }
+  }
+
+
+.card-border {
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.175);
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 25px;
+
+    h2 {
+        background-color: $card-color;
+        height: 3em;
+        padding-top: 1em;
+        color: $txt-color;
+        border-top-right-radius: 1rem;
+        border-top-left-radius: 1rem;
+        font-size: larger;
+    }
+}
+
+.form-outline ::placeholder {
+    color: $txt-color;
+    opacity: 1;
+    
+}
+
+.input-form {
+    min-height: calc(1.5em + 1rem + 2px);
+    border-radius: 1.5rem;
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #060707;
+}
+
+.card-body {
+    padding: 3rem;
+    padding-top: 1.888rem;
+
+    .btn {
+        border-color: #2196F3;
+        color: $txt-color;
+    }
+}
+
+.card-body .btn:hover {
+    background: $btn-color;
+    color: white;
+}
+
+.valid {
+    padding: 3rem;
+    padding-top: 1.888rem;
+}
