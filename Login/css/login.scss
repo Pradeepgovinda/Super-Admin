@@ -6,32 +6,32 @@ $txt-color: #4CB2E5;
 
 @font-face {
     font-family: "GeneralSans-Medium";
-    src: url(../fonts/GeneralSans-Medium.otf);
+    src: url(/Login/fonts/GeneralSans-Medium.otf); 
   }
 
 
 .tiny-left {
 
-    background: url(/images/login-left.png) no-repeat;
+    background: url(/Login/images/login-left.png) no-repeat;
     background-size: contain;
     font-family: "GeneralSans-Medium";
 
     
 
     .tiny-center {
-        background: url(/images/login.png) no-repeat center;
+        background: url(/Login/images/login.png) no-repeat center;
         background-size: contain;
 
     }
 
     .forget-center {
-        background: url(/images/forget-center.png) no-repeat center;
+        background: url(/Login/images/forget-center.png) no-repeat center;
         background-size: contain;
 
     }
 
     .resend-center {
-        background: url(/images/resend-center.png) no-repeat center;
+        background: url(/Login/images/resend-center.png) no-repeat center;
         background-size: contain;
 
     }
@@ -45,17 +45,17 @@ $txt-color: #4CB2E5;
 }
 
 .tiny-right {
-    background: url(/images/login-right.png) no-repeat right;
+    background: url(/Login/images/login-right.png) no-repeat right;
     background-size: contain;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1300px) {
     .tiny-left {
       background: none;
     }
   }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1300px) {
     .tiny-right {
       background: none;
     }
@@ -88,6 +88,7 @@ $txt-color: #4CB2E5;
     opacity: 1;
     
 }
+
 
 .input-form {
     min-height: calc(1.5em + 1rem + 2px);
