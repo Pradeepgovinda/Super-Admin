@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+
+    @import url("/Billings/css/add.plan.scss");
+
+
+.sidebar {
+    background: url(/Billings/images/billings-sidebar.png) no-repeat;
+    background-size: cover;
+    // padding: 2rem!important;
+    // padding-top: 2rem;
+}
+
+img{
+    width: 10rem;
+}
+
+.submenu{
+    background: url(/Billings/images/weee.png) no-repeat center;
+    background-size: cover;
+    width: 60%;
+}
+
+#menu {
+    padding-left: 3rem;
+}
+
+// .me-3{
+//     color: #ffffff;
+// }
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    color: #ffffff;
+    text-decoration: none;
+    padding-top: inherit;
+    // transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+span.nav-plan {
+    font-size: 2rem;
+    color: aliceblue;
+    padding-left: 25rem;
+}
+
+.admin {
+    font-size: 1.1rem;
+}
+
+.admin .super-admin {
+align-items: center;
+}
+
+.show-entries {
+    align-items: baseline;
+    color: #666666;
+}
+
+.admin .admin-name {
+    font-size: 0.8em;
+}
+
+.plan {
+    border-radius: 3rem;
+    border-style: solid;
+    width: 7rem;
+    text-align: center;
+    border-color: aliceblue;
+    color: aliceblue;
+    background-color: transparent;
+}
+
+.number .number-dropdown a.numbers {
+color: #666666;
+}
+
+.number-dropdown{
+    
+        width: 3.5rem;
+        height: 1.8rem;
+        border-style: solid;
+        border-radius: 2rem;
+        text-align: center;
+        border-color: #666666;
+        color: #666666;
+}
+
+img.rounded-circle{
+        border-style: solid;
+        border-color: aliceblue;
+        border-width: 0.2rem;
+}
+
+.rounded-circle {
+    border-radius: 50%!important;
+    height: 4rem;
+    width: 4rem;
+}
+
+input.form-control {
+border-radius: 3rem;
+
+}
+
+.add-plan{
+    text-align: end;
+}
+
+.form-controls {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #D7E9F2;
+    background-clip: padding-box;
+    border: 1px solid #666666;
+    border-radius: 3rem;
+    // transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+span.search {
+    display: flex;
+    align-items: center;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    /* white-space: nowrap; */
+    /* background-color: #e9ecef; */
+    /* border: 1px solid #ced4da; */
+    /* border-radius: .25rem; */
+    position: relative;
+    right: 3rem;
+}
+
+i.fas.fa-search{
+        bottom: 2rem;
+        left: 13rem;
+        position: relative;
+        color: #666666;
+}
+
+.show{
+    align-items: center;
+}
+
+.number{
+    text-align: end;
+}
+
+.show-number{
+    align-items: baseline;
+}
+
+.table-1{
+    background-color: #D9E8ED;
+    color: #4D4D4D;
+}
+
+.table-2{
+    color: #999999;
+}
+
+.table-3{
+    background-color: #D9E8F2;
+    color: #999999;
+}
+
+
+// Add-Plan
+
+input.form-name {
+    width: 18rem;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 1.4px solid #000000;
+    border-radius: 3rem;
+}
+
+span.star{
+    color: red;
+}
+
+select.select-menu {
+    width: 18rem;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #666666;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 1.4px solid #000000;
+    border-radius: 3rem;
+}
+
+
+.monthly-yearly {
+    width: 28rem;
+    background-color: #E1ECF0;
+    height: 6rem;
+    padding-top: 1rem;
+    color: #666666;
+}
+
+label.form-check-label.month{
+    padding-right: 2rem;
+}
+
+label.form-check-label.year{
+    padding-right: 3rem;
+}
+
+label.doller{
+        border-radius: 5rem;
+        width: 1.5rem;
+        text-align: center;
+        background-color: #B3B3B3;
+        position: relative;
+        right: 1.9rem;
+        color: white;
+}
+
+input.form {
+    width: 10rem;
+    background-color: transparent;
+    border: 1px solid #666666;
+    border-radius: 3rem;
+}
+
+input.price-month{
+    background-color: transparent;
+    border: 2px solid #212529;
+}
+
+input.price-year{
+    background-color: transparent;
+    border: 2px solid #212529;
+}
+
+.status{
+    color: #666666;
+}
+
+input.status-active{
+    background-color: transparent;
+    border: 2px solid #212529;
+}
+
+input.status-inactive{
+    background-color: transparent;
+    border: 2px solid #212529;
+
+}
+
+.click{
+    text-align: center;
+}
+
+.back{
+    // border: 1px solid black;
+    width: 5rem;
+    border: none;
+    margin-right: 1rem;
+}
+
+.reset{
+    width: 5rem;
+    border: none;
+    margin-right: 1rem;
+}
+
+.save{
+    width: 5rem;
+    border: none;
+    color:#D9E8F2;
+background-color: #90bfe5;
+}
