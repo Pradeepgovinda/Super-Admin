@@ -1,1 +1,109 @@
-/*# sourceMappingURL=add.plan.css.map */
+input.form-name {
+  width: 18rem;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: transparent;
+  background-clip: padding-box;
+  border: 1.4px solid #000000;
+  border-radius: 3rem;
+}
+
+span.star {
+  color: red;
+}
+
+select.select-menu {
+  width: 18rem;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #666666;
+  background-color: transparent;
+  background-clip: padding-box;
+  border: 1.4px solid #000000;
+  border-radius: 3rem;
+}
+
+.monthly-yearly {
+  width: 28rem;
+  background-color: #E1ECF0;
+  height: 6rem;
+  padding-top: 1rem;
+  color: #666666;
+}
+
+label.form-check-label.month {
+  padding-right: 2rem;
+}
+
+label.form-check-label.year {
+  padding-right: 3rem;
+}
+
+label.doller {
+  border-radius: 5rem;
+  width: 1.5rem;
+  text-align: center;
+  background-color: #B3B3B3;
+  position: relative;
+  right: 1.9rem;
+  color: white;
+}
+
+input.form {
+  width: 10rem;
+  background-color: transparent;
+  border: 1px solid #666666;
+  border-radius: 3rem;
+}
+
+input.price-month {
+  background-color: transparent;
+  border: 2px solid #212529;
+}
+
+input.price-year {
+  background-color: transparent;
+  border: 2px solid #212529;
+}
+
+.status {
+  color: #666666;
+}
+
+input.status-active {
+  background-color: transparent;
+  border: 2px solid #212529;
+}
+
+input.status-inactive {
+  background-color: transparent;
+  border: 2px solid #212529;
+}
+
+.click {
+  text-align: center;
+}
+
+.back {
+  width: 5rem;
+  border: none;
+  margin-right: 1rem;
+}
+
+.reset {
+  width: 5rem;
+  border: none;
+  margin-right: 1rem;
+}
+
+.save {
+  width: 5rem;
+  border: none;
+  color: #D9E8F2;
+  background-color: #90bfe5;
+}/*# sourceMappingURL=add.plan.css.map */

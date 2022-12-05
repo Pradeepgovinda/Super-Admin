@@ -9,9 +9,9 @@
 
 
 .sidebar {
-    background: url(/Billings/images/billings-sidebar.png) no-repeat;
+    background: url(../images/billings-sidebar.png) no-repeat;
     background-size: cover;
-    // padding: 2rem!important;
+    // padding : 2rem!important;
     // padding-top: 2rem;
 }
 
@@ -20,7 +20,7 @@ img{
 }
 
 .submenu{
-    background: url(/Billings/images/weee.png) no-repeat center;
+    background: url(../images/weee.png) no-repeat center;
     background-size: cover;
     width: 60%;
 }
@@ -170,11 +170,29 @@ i.fas.fa-search{
 
 .table-2{
     color: #999999;
+
+    .open{
+        color: #29ABE2;
+    }
+
+    .send{
+color: #ED1C24;
+    }
+
+    .cancelled{
+color: #F7931E;
+    }
 }
 
 .table-3{
     background-color: #D9E8F2;
     color: #999999;
+    .ready{
+        color: #009245;
+    }
+    .paid{
+        color: #013F39;
+    }
 }
 
 
@@ -291,4 +309,63 @@ input.status-inactive{
     border: none;
     color:#D9E8F2;
 background-color: #90bfe5;
+}
+
+.add-invoice{
+    text-align: end;
+    align-items: baseline;
+}
+
+.dropdown-all{
+    
+    width: 7.5rem;
+    height: 1.8rem;
+    border: 1px solid;
+    border-radius: 2rem;
+    text-align: center;
+    border-color: #666666;
+    background-color: #D7E9F2;
+}
+
+.add-invoice .dropdown-all a.invoices {
+    color: #666666;
+}
+
+.table-bordered .select-menu{
+        width: auto;
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #FFFFFF;
+        background-color: #4CB2E5;
+        background-clip: padding-box;
+        border: 1.4px solid #000000;
+        border-radius: 3rem;
+}
+
+
+//add-invoice
+
+hr{
+    color: #FFFFFF;
+}
+
+fieldset.row.mt-3.mb-3 {
+    background: #E1ECF0;
+    height: 16rem;
+    align-items: end;
+    width: 38rem;
+}
+
+.add-item{
+    padding-left: 7rem;
+}
+
+.add-item .new-item{
+    background-color: transparent;
+    color: #6EA8C4;
+    border-radius: 2rem;
+    border: 1px solid #6EA8C4;
+    width: 8rem;
 }
