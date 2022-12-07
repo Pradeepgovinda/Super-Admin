@@ -79,11 +79,9 @@
                         </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <span class="nav-plan">Add Plan</span>
+                                <span class="nav-plan">Add Payment</span>
 
                             </ul>
-
-
 
                             <form class="d-flex align-items-baseline admin">
                                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 super-admin">
@@ -140,77 +138,45 @@
                             </div>
                         </div>
                         <div class="row mb-3">
-                            <label class="col-sm-2 col-form-label"><span class="star">*</span> Start Date</label>
+                            <label class="col-sm-2 col-form-label"><span class="star">*</span> Amount </label>
                             <div class="col-sm-10">
-                                <form class="select-menu"> 
-                                    <input type="date">
-                                  </form>
+                                <input type="name" class="form-name ">
                             </div>
                         </div>
                         <div class="row mb-3">
-                            <label class="col-sm-2 col-form-label"><span class="star">*</span> End Date</label>
-                            <div class="col-sm-10">
-                                <form class="select-menu"> 
-                                    <input type="date">
-                                  </form>
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <label class="col-sm-2 col-form-label"><span class="star">*</span> Due Date</label>
-                            <div class="col-sm-10">
-                                <form class="select-menu"> 
-                                    <input type="date">
-                                  </form>
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <label class="col-sm-2 col-form-label"><span class="star">*</span> Tax</label>
+                            <label class="col-sm-2 col-form-label"><span class="star">*</span> Method</label>
                             <div class="col-sm-10">
                                 <select class="select-menu">
-                                    <option selected>0.0</option>
+                                    <option selected>Select Center</option>
                                     <option>...</option>
                                 </select>
                             </div>
                         </div>
-                        <hr />
-                        <h4>Invoice Item #1</h4>
-                        <fieldset class="row mt-3 mb-3">
-                            <div class="row mb-3">
-                                <label class="col-sm-2 col-form-label"><span class="star">*</span> Quantity</label>
-                                <div class="col-sm-10">
-                                    <input type="name" class="form-name">
-                                </div>
+                        <div class="row mb-3">
+                            <label class="col-sm-2 col-form-label"><span class="star">*</span> Payment Date</label>
+                            <div class="col-sm-10">
+                                <form class="select-menu"> 
+                                    <input type="date">
+                                  </form>
                             </div>
-                            <div class="row mb-3">
-                                <label class="col-sm-2 col-form-label"><span class="star">*</span> Label</label>
-                                <div class="col-sm-10">
-                                    <input type="name" class="form-name">
-                                </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label class="col-sm-2 col-form-label"> Description <span class="option"> (optional) </span> </label>
+                            <div class="col-sm-10">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Description..."></textarea>
                             </div>
-                            <div class="row mb-3">
-                                <label class="col-sm-2 col-form-label"><span class="star">*</span> Cost</label>
-                                <div class="col-sm-10">
-                                    <input type="name" class="form-name ">
-                                </div>
+                        </div>
+                        
+                        <div class="row mb-3">
+                            <label class="col-sm-2 col-form-label"> Internal Note <span class="option"> (optional) </span> </label>
+                            <div class="col-sm-10">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Note..."></textarea>
                             </div>
-                            <div class="row mb-3">
-                                <label class="col-sm-2 col-form-label">Discount</label>
-                                <div class="col-sm-10">
-                                    <select class="select-menu">
-                                        <option selected>Discount X</option>
-                                        <option>...</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </fieldset>
-                            <div class="row add-item">
-                                <div class="col mt-3 mb-3">
-                                    <button class="new-item" type="btn">+ Add New Item</button>
-                                </div>
-                            </div>
+                        </div>
 
                             <div class="row">
-                                <div class="col-sm-10 click">
+                                <div class="col-sm-10 mt-4 click">
                                     <button class="back" type="button">Back</button>
                                     <button class="reset" type="button">Reset</button>
                                     <button class="save" type="button">Save</button>

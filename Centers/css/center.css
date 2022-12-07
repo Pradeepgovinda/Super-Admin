@@ -32,10 +32,9 @@ img {
   padding-top: inherit;
 }
 
-span.nav-plan {
-  font-size: 2rem;
+h3.nav-plan {
   color: aliceblue;
-  padding-left: 25rem;
+  padding-left: 19rem;
 }
 
 .admin {
@@ -187,12 +186,13 @@ i.fas.fa-search {
   color: #013F39;
 }
 
-i.fas.fa-eye {
-  color: green;
+img.table-image {
+  width: 2rem;
+  height: 2rem;
 }
 
-.fa-eye:before {
-  padding-right: 7px;
+span.center-name {
+  padding-left: 8px;
 }
 
 i.fa-solid.fa-pen {
@@ -202,21 +202,12 @@ i.fa-solid.fa-pen {
   padding-left: 1rem;
 }
 
-input.form-name {
-  width: 18rem;
-  padding: 0.375rem 0.75rem;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #212529;
-  background-color: transparent;
-  background-clip: padding-box;
-  border: 1.4px solid #000000;
-  border-radius: 3rem;
+i.fas.fa-eye {
+  color: green;
 }
 
-span.star {
-  color: red;
+.fa-eye:before {
+  padding-right: 7px;
 }
 
 select.select-menu {
@@ -232,177 +223,17 @@ select.select-menu {
   border-radius: 3rem;
 }
 
-.monthly-yearly {
-  width: 28rem;
-  background-color: #E1ECF0;
-  height: 6rem;
-  padding-top: 1rem;
-  color: #666666;
-}
-
-label.form-check-label.month {
-  padding-right: 2rem;
-}
-
-label.form-check-label.year {
-  padding-right: 3rem;
-}
-
-label.doller {
-  border-radius: 5rem;
-  width: 1.5rem;
-  text-align: center;
-  background-color: #B3B3B3;
-  position: relative;
-  right: 1.9rem;
-  color: white;
-}
-
-input.form {
-  width: 10rem;
-  background-color: transparent;
-  border: 1px solid #666666;
-  border-radius: 3rem;
-}
-
-input.price-month {
-  background-color: transparent;
-  border: 2px solid #212529;
-}
-
-input.price-year {
-  background-color: transparent;
-  border: 2px solid #212529;
-}
-
-.status {
-  color: #666666;
-}
-
-input.status-active {
-  background-color: transparent;
-  border: 2px solid #212529;
-}
-
-input.status-inactive {
-  background-color: transparent;
-  border: 2px solid #212529;
-}
-
-.click {
-  text-align: center;
-}
-
-.back {
-  width: 5rem;
-  border: none;
-  margin-right: 1rem;
-}
-
-.reset {
-  width: 5rem;
-  border: none;
-  margin-right: 1rem;
-}
-
-.save {
-  width: 5rem;
-  border: none;
-  color: #D9E8F2;
-  background-color: #90bfe5;
-}
-
-.add-invoice {
-  text-align: end;
-  align-items: baseline;
-}
-
-.dropdown-all {
-  width: 7.5rem;
-  height: 1.8rem;
-  border: 1px solid;
-  border-radius: 2rem;
-  text-align: center;
-  border-color: #666666;
-  background-color: #D7E9F2;
-}
-
-.add-invoice .dropdown-all a.invoices {
-  color: #666666;
-}
-
-.table-bordered .select-menu {
-  width: auto;
+input.form-name {
+  width: 18rem;
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #FFFFFF;
-  background-color: #4CB2E5;
+  color: #212529;
+  background-color: transparent;
   background-clip: padding-box;
   border: 1.4px solid #000000;
   border-radius: 3rem;
-}
-
-hr {
-  color: #FFFFFF;
-}
-
-fieldset.row.mt-3.mb-3 {
-  background: #E1ECF0;
-  height: 16rem;
-  align-items: end;
-  width: 38rem;
-}
-
-.add-item {
-  padding-left: 7rem;
-}
-
-.add-item .new-item {
-  background-color: transparent;
-  color: #6EA8C4;
-  border-radius: 2rem;
-  border: 1px solid #6EA8C4;
-  width: 8rem;
-}
-
-input[type=date] {
-  border: 1px solid #666666;
-  background: transparent;
-  width: 18rem;
-  border-radius: 2rem;
-  height: 2.5rem;
-  padding-left: 1rem;
-  color: #666666;
-}
-
-h3.payment {
-  color: aliceblue;
-  padding-left: 19rem;
-}
-
-.complete {
-  color: rgb(18, 153, 50);
-}
-
-.all-payment {
-  width: 11.5rem;
-  height: 1.8rem;
-  border: 1px solid;
-  border-radius: 2rem;
-  text-align: center;
-  border-color: #666666;
-  background-color: #D7E9F2;
-}
-
-a#navbarDropdown {
-  color: #666666;
-}
-
-.option {
-  color: #666666;
-  font-size: 12.5px;
 }
 
 textarea#exampleFormControlTextarea1 {
@@ -411,4 +242,127 @@ textarea#exampleFormControlTextarea1 {
   border: 1px solid #666666;
   border-radius: 1rem;
   width: 40rem;
-}/*# sourceMappingURL=sidebar.css.map */
+}
+
+.click {
+  text-align: center;
+}
+.click .back {
+  width: 5rem;
+  border: none;
+  margin-right: 1rem;
+}
+.click .reset {
+  width: 5rem;
+  border: none;
+  margin-right: 1rem;
+}
+.click .save {
+  width: 5rem;
+  border: none;
+  color: #D9E8F2;
+  background-color: #90bfe5;
+}
+
+.logo img.tiny-logo {
+  width: 3rem;
+}
+
+img.basic:hover {
+  border: 2px solid #4CB2E5;
+  border-radius: 0.5rem;
+  padding: 5px !important;
+}
+
+img.standard:hover {
+  border: 2px solid #4CB2E5;
+  border-radius: 0.5rem;
+  padding: 5px !important;
+}
+
+img.premium:hover {
+  border: 2px solid #4CB2E5;
+  border-radius: 0.5rem;
+  padding: 5px !important;
+}
+
+img.customized:hover {
+  border: 2px solid #4CB2E5;
+  border-radius: 0.5rem;
+  padding: 5px !important;
+}
+
+span.basic-month {
+  position: relative;
+  bottom: 2.5rem;
+  left: 1.5rem;
+  color: #4CB2E5;
+  font: caption;
+  font-size: 13px;
+}
+
+span.basic-annum {
+  position: relative;
+  bottom: 2.5rem;
+  left: 3rem;
+  font-size: 12px;
+  color: #4CB2E5;
+}
+
+span.customized-month {
+  position: relative;
+  bottom: 4rem;
+  left: 1.5rem;
+  color: #4CB2E5;
+  font: caption;
+  font-size: 13px;
+}
+
+span.customized-annum {
+  position: relative;
+  bottom: 4rem;
+  left: 3rem;
+  font-size: 12px;
+  color: #4CB2E5;
+}
+
+input#demoInput {
+  position: relative;
+  bottom: 6rem;
+  left: 2.5rem;
+  height: 19px;
+  width: 2rem;
+  text-align: center;
+}
+
+button.increment {
+  height: 0.7rem;
+  position: relative;
+  bottom: 92px;
+  left: 2.5rem;
+  border: 1px solid;
+  padding-bottom: 1rem;
+  width: 1.4rem;
+  background-color: #ffffff;
+}
+
+span.plus {
+  position: relative;
+  bottom: 5.5px;
+}
+
+button.decrement {
+  height: 0.7rem;
+  position: relative;
+  bottom: 92px;
+  left: 2.5rem;
+  border: 1px solid;
+  padding-bottom: 1rem;
+  width: 1.4rem;
+  background-color: #ffffff;
+}
+
+span.minus {
+  position: relative;
+  bottom: 5.5px;
+}/*# sourceMappingURL=center.css.map */

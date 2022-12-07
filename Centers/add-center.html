@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-9" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Super Admin</title>
+    <link rel="icon" type="image/x-icon" href="./images/tiny-cloud.png">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sass.js/0.11.1/sass.min.js"
+        integrity="sha512-/F8YhC3n5OrM9ta9htMD620kH0paKnjDHCHcSvyWumxlqsnkS/XCpYExuMZuXE4K3GE9tDQFBqgXsmkjsjRbDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <link type="text/css" href="./css/center.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row flex-nowrap">
+            <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 sidebar">
+                <div
+                    class="d-flex flex-column align-items-baseline align-items-sm-start px-3 pt-2 min-vh-100 .sidebar-tiny">
+                    <a class="navbar-brand">
+                        <img src="./images/tiny-cloud.png"  alt="tiny-cloud" />
+                    </a>
+                    <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-baseline align-items-sm-start"
+                        id="menu">
+                        <li class="nav-item">
+                            <a href="/Billings/plan.html" class="nav-link align-middle px-0">
+                                <i class="fs-4 bi-house"></i> <span
+                                    class="ms-1 d-none d-sm-inline text-white">Centers</span>
+                            </a>
+                        </li>
+                        
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="col py-3 submenu">
+
+
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container">
+                        <li class="nav-item dropdown navbar-nav">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                EN
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="fas fa-bars"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <h3 class="nav-plan">Add Center</h3>
+                            </ul>
+
+                            <form class="d-flex align-items-baseline admin">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0 super-admin">
+                                    <li class="nav-item">
+                                        <a class="nav-link " aria-current="page" href="#"><i
+                                                class="far fa-envelope"></i></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><i class="fas fa-bell"></i></a>
+                                    </li>
+                                    <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" class="rounded-circle"
+                                        alt="Black and White Portrait of a Man" />
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            <span class="admin-name"> Sufian Abu Laban</span></br> Super Admin </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><i class="fas fa-sign-out-alt" logout></br><span
+                                                    class="signout">logout</span></i></a>
+                                    </li>
+
+                                </ul>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+
+                <div class="container-fluid">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col mt-3">
+                                <h3>Basic Info</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <form class="container-fluid mt-4">
+                    <div class="container">
+
+                        <div class="row mb-3">
+                            <label class="col-sm-3 col-form-label"> Logo </label>
+                            <div class="col-sm-9 logo">
+                                <img src="./images/logo.png" class="tiny-logo"
+                                        alt="tiny-logo" />
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label class="col-sm-3 col-form-label"> Name </label>
+                            <div class="col-sm-9">
+                                <input type="name" class="form-name ">
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label class="col-sm-3 col-form-label"> Country</label>
+                            <div class="col-sm-9">
+                                <select class="select-menu">
+                                    <option selected>Select Country</option>
+                                    <option>...</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label class="col-sm-3 col-form-label"> Phone </label>
+                            <div class="col-sm-9">
+                                <input type="name" class="form-name" placeholder="+961">
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label class="col-sm-3 col-form-label"> Email </label>
+                            <div class="col-sm-9">
+                                <input type="name" class="form-name ">
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label class="col-sm-3 col-form-label"> Contact Person Name </label>
+                            <div class="col-sm-9">
+                                <input type="name" class="form-name ">
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label class="col-sm-3 col-form-label"> Contact Person Phone </label>
+                            <div class="col-sm-9">
+                                <input type="name" class="form-name" placeholder="+961">
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label class="col-sm-3 col-form-label"> Contact Person Email </label>
+                            <div class="col-sm-9">
+                                <input type="name" class="form-name ">
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label class="col-sm-3 col-form-label"> Licence No. </label>
+                            <div class="col-sm-9">
+                                <input type="name" class="form-name ">
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label class="col-sm-3 col-form-label"> Tax No. </label>
+                            <div class="col-sm-9">
+                                <input type="name" class="form-name ">
+                            </div>
+                        </div>
+
+                        <fieldset class="row mb-3">
+                            <legend class="col-form-label col-sm-3 pt-0">Status</legend>
+                            <div class="col-sm-9 status">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input status-active" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">Active</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input status-inactive" type="radio"
+                                        name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">Inactive</label>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
+                </form>
+
+                <div class="container-fluid">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col mt-3">
+                                <h3>Address</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="container-fluid mt-5 pt-3">
+                    <div class="container">
+                        <div class="row mb-3">
+                            <label class="col-sm-3 col-form-label"> Address Line 1 </label>
+                            <div class="col-sm-9">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                    placeholder="Street and number"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label class="col-sm-3 col-form-label"> Address Line 2</label>
+                            <div class="col-sm-9">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                    placeholder="Apt, suite, etc"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label class="col-sm-3 col-form-label"> City </label>
+                            <div class="col-sm-9">
+                                <input type="name" class="form-name ">
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label class="col-sm-3 col-form-label"> State/Province </label>
+                            <div class="col-sm-9">
+                                <input type="name" class="form-name ">
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label class="col-sm-3 col-form-label"><span style="color: red ;"> *</span> Zip/Postal Code </label>
+                            <div class="col-sm-9">
+                                <input type="name" class="form-name ">
+                            </div>
+                        </div>
+                        
+                    </div>
+                </form>
+
+                <div class="container-fluid">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col mt-3">
+                                <h3>Payment</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-fluid">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-2 mt-3">
+                                <img src="./images/basic.png" class="basic" alt="basic" />
+                                <p><span class="basic-month">14.99 $</span> <span class="basic-annum">14.99 $</span></p>
+                            </div>
+
+                            <div class="col-2 mt-3">
+                                <img src="./images/standard.png" class="standard" alt="standard" />
+                                <p><span class="basic-month">14.99 $</span> <span class="basic-annum">14.99 $</span></p>
+                            </div>
+
+                            <div class="col-2 mt-3">
+                                <img src="./images/premium.png" class="premium" alt="premium" />
+                                <p><span class="basic-month">14.99 $</span> <span class="basic-annum">14.99 $</span></p>
+                            </div>
+
+                            <div class="col-2 mt-3">
+                                <img src="./images/customized.png" class="customized" alt="customized" />
+                                <button class="increment" onclick="increment()"><span class="plus">+</span></button>
+                                <input id=demoInput type=number min=0 max=100>
+                                <button class="decrement" onclick="decrement()"><span class="minus">-</span></button>
+                                <p><span class="customized-month">14.99 $</span> <span class="customized-annum">14.99 $</span></p>
+                            </div>
+                        </div>
+                
+
+                        <div class="row">
+                            <div class="col-sm-9 mt-4 click">
+                                <button class="back" type="button">Back</button>
+                                <button class="reset" type="button">Reset</button>
+                                <button class="save" type="button">Save</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+
+  function increment() {
+
+  document.getElementById('demoInput').stepUp();}
+
+  function decrement() {
+
+  document.getElementById('demoInput').stepDown(); }
+
+</script>
+</body>
+
+</html>

@@ -105,7 +105,7 @@
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fas fa-sign-out-alt"></i></a>
+                    <a class="nav-link" href="#"><i class="fas fa-sign-out-alt" logout></br><span class="signout">logout</span></i></a>
                   </li>
                 </ul>
               </form>
@@ -166,7 +166,7 @@
         <div class="container-fluid">
           <div class="container">
             <div class="row mb-3 add-invoice">
-              <div class="col mt-3 mb-3">
+              <div class="col-2 mt-3 mb-3">
                 <li class="nav-item dropdown navbar-nav dropdown-all">
                     <a class="nav-link dropdown-toggle invoices" href="#" id="navbarDropdown" role="button"
                       data-bs-toggle="dropdown" aria-expanded="false">All Countries</a>
@@ -180,7 +180,7 @@
                     </ul>
                   </li>
               </div>
-              <div class="col mt-3 mb-3">
+              <div class="col-2 mt-3 mb-3">
                 <li class="nav-item dropdown navbar-nav dropdown-all">
                     <a class="nav-link dropdown-toggle invoices" href="#" id="navbarDropdown" role="button"
                       data-bs-toggle="dropdown" aria-expanded="false">All Centers</a>
@@ -194,7 +194,7 @@
                     </ul>
                   </li>
               </div>
-              <div class="col mt-3 mb-3">
+              <div class="col-2 mt-3 mb-3">
                 <li class="nav-item dropdown navbar-nav dropdown-all">
                     <a class="nav-link dropdown-toggle invoices" href="#" id="navbarDropdown" role="button"
                       data-bs-toggle="dropdown" aria-expanded="false">All Months</a>
@@ -208,7 +208,7 @@
                     </ul>
                   </li>
               </div>
-              <div class="col mt-3 mb-3">
+              <div class="col-2 mt-3 mb-3">
                 <li class="nav-item dropdown navbar-nav dropdown-all">
                     <a class="nav-link dropdown-toggle invoices" href="#" id="navbarDropdown" role="button"
                       data-bs-toggle="dropdown" aria-expanded="false">All Statuses</a>
@@ -419,23 +419,28 @@
               </tbody>
             </table>
 
-            <nav aria-label="Page navigation example">
-              <ul class="pagination justify-content-end">
-                <li class="page-item">
-                  <a class="page-link" href="#" aria-label="Previous">
-                    <span aria-hidden="true">&laquo;</span>
-                  </a>
-                </li>
-                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                <li class="page-item">
-                  <a class="page-link" href="#" aria-label="Next">
-                    <span aria-hidden="true">&raquo;</span>
-                  </a>
-                </li>
-              </ul>
-            </nav>
+            <div class="row mb-3">
+              <p class="col-sm-4 col-form-label">Showing 1 to 2 of 2 Entries</p>
+              <div class="col-sm-8">
+                <nav aria-label="Page navigation example">
+                  <ul class="pagination justify-content-end">
+                    <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                      </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
 
           </div>
         </div>

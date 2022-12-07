@@ -1,22 +1,22 @@
 @font-face {
   font-family: "GeneralSans-Medium";
-  src: url(/Login/fonts/GeneralSans-Medium.otf);
+  src: url(../fonts/GeneralSans-Medium.otf);
 }
 .tiny-left {
-  background: url(/Login/images/login-left.png) no-repeat;
+  background: url(../images/login-left.png) no-repeat;
   background-size: contain;
   font-family: "GeneralSans-Medium";
 }
 .tiny-left .tiny-center {
-  background: url(/Login/images/login.png) no-repeat center;
+  background: url(../images/login.png) no-repeat center;
   background-size: contain;
 }
 .tiny-left .forget-center {
-  background: url(/Login/images/forget-center.png) no-repeat center;
+  background: url(../images/forget-center.png) no-repeat center;
   background-size: contain;
 }
 .tiny-left .resend-center {
-  background: url(/Login/images/resend-center.png) no-repeat center;
+  background: url(../images/resend-center.png) no-repeat center;
   background-size: contain;
 }
 .tiny-left p {
@@ -27,7 +27,7 @@
 }
 
 .tiny-right {
-  background: url(/Login/images/login-right.png) no-repeat right;
+  background: url(../images/login-right.png) no-repeat right;
   background-size: contain;
 }
 
