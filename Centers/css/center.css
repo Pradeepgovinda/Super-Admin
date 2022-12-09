@@ -107,6 +107,18 @@ input.form-control {
   text-align: end;
 }
 
+.row.basic-info {
+  background-image: linear-gradient(to right, #c3def2, #e8eff3);
+}
+
+.row.address {
+  background-image: linear-gradient(to right, #c3def2, #e8eff3);
+}
+
+.row.payment {
+  background-image: linear-gradient(to right, #c3def2, #e8eff3);
+}
+
 .form-controls {
   display: block;
   width: 100%;
@@ -245,7 +257,7 @@ textarea#exampleFormControlTextarea1 {
 }
 
 .click {
-  text-align: center;
+  text-align: end;
 }
 .click .back {
   width: 5rem;
@@ -330,7 +342,9 @@ input#demoInput {
   position: relative;
   bottom: 6rem;
   left: 2.5rem;
-  height: 19px;
+  height: 16px;
+  color: #666666;
+  border: none;
   width: 2rem;
   text-align: center;
 }
@@ -340,10 +354,11 @@ button.increment {
   position: relative;
   bottom: 92px;
   left: 2.5rem;
-  border: 1px solid;
+  border: none;
+  color: #666666;
   padding-bottom: 1rem;
   width: 1.4rem;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
 }
 
 span.plus {
@@ -356,13 +371,63 @@ button.decrement {
   position: relative;
   bottom: 92px;
   left: 2.5rem;
-  border: 1px solid;
+  border: none;
+  color: #666666;
   padding-bottom: 1rem;
   width: 1.4rem;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
 }
 
 span.minus {
   position: relative;
   bottom: 5.5px;
+}
+
+p.month {
+  background: #E9F2FC;
+  height: 6.5rem;
+  width: 13rem;
+  border-radius: 0.4rem;
+  padding-top: 1rem;
+  color: #666666;
+  padding-left: 2rem;
+  font-size: 13px;
+}
+
+p.month:hover {
+  border: 2px solid #4CB2E5;
+  border-radius: 0.5rem;
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
+
+span.monthly {
+  font-weight: bold;
+}
+
+p.annum {
+  background: #F4E5DF;
+  height: 6.5rem;
+  width: 13rem;
+  border-radius: 0.4rem;
+  padding-top: 1rem;
+  color: #666666;
+  padding-left: 2rem;
+  font-size: 13px;
+}
+
+p.annum:hover {
+  border: 2px solid #4CB2E5;
+  border-radius: 0.5rem;
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
+
+span.annual {
+  font-weight: bold;
+}
+
+span.doller {
+  color: #4CB2E5;
+  font-size: 1rem;
 }/*# sourceMappingURL=center.css.map */

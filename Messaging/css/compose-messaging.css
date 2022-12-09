@@ -1,0 +1,344 @@
+@import url("/Billings/css/add.plan.scss");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sidebar {
+  background: url(../images/billings-sidebar.png) no-repeat;
+  background-size: cover;
+}
+
+img {
+  width: 10rem;
+}
+
+.submenu {
+  background: url(../images/weee.png) no-repeat center;
+  background-size: cover;
+  width: 60%;
+}
+
+#menu {
+  padding-left: 3rem;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #ffffff;
+  text-decoration: none;
+  padding-top: inherit;
+}
+
+h3.nav-plan {
+  font-size: 2rem;
+  color: aliceblue;
+  padding-left: 16rem;
+}
+
+.admin {
+  font-size: 1.1rem;
+}
+
+.admin .super-admin {
+  align-items: center;
+}
+
+.show-entries {
+  align-items: baseline;
+  color: #666666;
+}
+
+.admin .admin-name {
+  font-size: 0.8em;
+}
+
+.plan {
+  border-radius: 3rem;
+  border-style: solid;
+  width: 7rem;
+  text-align: center;
+  border-color: aliceblue;
+  color: aliceblue;
+  background-color: transparent;
+}
+
+.number .number-dropdown a.numbers {
+  color: #666666;
+}
+
+.number-dropdown {
+  width: 3.5rem;
+  height: 1.8rem;
+  border-style: solid;
+  border-radius: 2rem;
+  text-align: center;
+  border-color: #666666;
+  color: #666666;
+}
+
+img.rounded-circle {
+  border-style: solid;
+  border-color: aliceblue;
+  border-width: 0.2rem;
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+  height: 4rem;
+  width: 4rem;
+}
+
+i.fas.fa-sign-out-alt {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+span.signout {
+  font-size: 13px;
+}
+
+.table-background {
+  background-color: #EDF1F4;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 3rem;
+}
+
+input.form-control {
+  border-radius: 3rem;
+}
+
+.add-plan {
+  text-align: end;
+}
+
+.message {
+  border: 1px solid;
+  height: 15rem;
+  border-radius: 1rem;
+}
+
+.form-controls {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #F0F9FC;
+  background-clip: padding-box;
+  border: 1px solid #666666;
+  border-radius: 3rem;
+}
+
+.show {
+  align-items: baseline;
+}
+
+span.search {
+  display: flex;
+  align-items: center;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  /* white-space: nowrap; */
+  /* background-color: #e9ecef; */
+  /* border: 1px solid #ced4da; */
+  /* border-radius: .25rem; */
+  position: relative;
+  right: 3rem;
+}
+
+i.fas.fa-search {
+  bottom: 2rem;
+  left: 13rem;
+  position: relative;
+  color: #666666;
+}
+
+select.select-menu {
+  width: auto;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #FFFFFF;
+  background-color: #4CB2E5;
+  background-clip: padding-box;
+  border: 1.4px solid #000000;
+  border-radius: 3rem;
+}
+
+table.table-head {
+  background-color: #D7E9F2;
+  border-radius: 0.4rem;
+  color: #666666;
+}
+
+th.form-option {
+  width: 16.8rem;
+}
+
+th.subject {
+  width: 24.7rem;
+}
+
+span.form {
+  padding-left: 5.3rem;
+}
+
+input#inlineCheckbox {
+  position: relative;
+  left: 2rem;
+}
+
+i.fa.fa-star {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  color: #B3B3B3;
+}
+
+img.table-image {
+  width: 3rem;
+  height: 2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+tr.baby-zone {
+  background-color: #E6EFF4;
+  font-weight: bold;
+  color: #4D4D4D;
+}
+
+tr.daycare {
+  background-color: #FFFFFF;
+  color: #4D4D4D;
+}
+
+.choose-action {
+  width: 8.5rem;
+  height: 1.8rem;
+  border-style: solid;
+  border-radius: 2rem;
+  text-align: center;
+  border-color: #666666;
+  color: #666666;
+}
+
+a.numbers {
+  color: #666666;
+}
+
+.inbox {
+  width: 7.5rem;
+  height: 1.8rem;
+  border: 1px solid;
+  border-radius: 2rem;
+  text-align: center;
+  border-color: #666666;
+  background-color: #F0F9FC;
+  color: #999999;
+}
+
+.send {
+  width: 7.5rem;
+  height: 1.8rem;
+  border: 1px solid;
+  border-radius: 2rem;
+  text-align: center;
+  border-color: #666666;
+  background-color: #9AC8EB;
+  color: #FFFFFF;
+}
+
+.conversation-background {
+  background-color: #EDF1F4;
+  padding: 3rem;
+}
+
+h4.darius {
+  color: #666666;
+}
+
+textarea#exampleFormControlTextarea1 {
+  height: 7rem;
+  background: transparent;
+  border: 1.5px solid #666666;
+}
+
+.img-circle {
+  width: 4rem;
+}
+
+.click-message {
+  text-align: end;
+}
+
+.click-message .back {
+  width: 5rem;
+  border: none;
+  margin-right: 1rem;
+  background-color: #FFFFFF;
+}
+
+.click-message .reset {
+  width: 5rem;
+  border: none;
+  margin-right: 1rem;
+  background-color: #FFFFFF;
+}
+
+.click-message .save {
+  width: 9rem;
+  border: none;
+  color: #D9E8F2;
+  background-color: #90bfe5;
+}
+
+p.banan-daycaree {
+  color: #999999;
+  font-size: 15px;
+}
+
+span.daycare {
+  font-size: 17px;
+  font-weight: bold;
+  color: #666666;
+}
+
+span.christen {
+  color: #9AC8EB;
+}
+
+p.abu-laban {
+  color: #999999;
+  font-size: 15px;
+}
+
+span.abu {
+  font-size: 17px;
+  font-weight: bold;
+  color: #666666;
+}
+
+span.super {
+  font-size: 17px;
+  color: #666666;
+}
+
+p.dated {
+  text-align: end;
+  font-size: 10px;
+  position: relative;
+  bottom: 0.7rem;
+  color: #666666;
+}/*# sourceMappingURL=compose-messaging.css.map */
