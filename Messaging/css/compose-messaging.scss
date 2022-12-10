@@ -2,10 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    }
+}
 
 
-    @import url("/Billings/css/add.plan.scss");
+@import url("/Billings/css/add.plan.scss");
 
 
 .sidebar {
@@ -15,11 +15,11 @@
     // padding-top: 2rem;
 }
 
-img{
+img {
     width: 10rem;
 }
 
-.submenu{
+.submenu {
     background: url(../images/weee.png) no-repeat center;
     background-size: cover;
     width: 60%;
@@ -53,7 +53,7 @@ h3.nav-plan {
 }
 
 .admin .super-admin {
-align-items: center;
+    align-items: center;
 }
 
 .show-entries {
@@ -65,6 +65,93 @@ align-items: center;
     font-size: 0.8em;
 }
 
+
+//compose-messaging
+
+.compose {
+    background-color: #EDF1F4;
+    padding: 2.5rem!important;
+}
+
+span#inputGroup-sizing-default {
+    background-color: #D7E9F2;
+    font-weight: 500;
+    color: #666666;
+}
+
+
+table.message-table {
+    border-radius: 0.4rem;
+    border: 1px solid #cccccc;
+    // color: #666666;
+}
+
+th.send-to {
+    font-weight: 500;
+    color: #666666;
+}
+
+.form-check.all-center {
+    padding-bottom: 0.5rem;
+    color: #666666;
+}
+
+.form-check.selected-center {
+    padding-bottom: 0.5rem;
+    color: #666666;
+}
+
+
+input.subject {
+    background-color: #EDF1F4;
+}
+
+th.message-word{
+    color: #666666;
+    font-weight: 500;
+}
+
+i.fas.fa-bold {
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+}
+
+i.fas.fa-underline {
+    padding-right: 1rem;
+}
+
+i.fa-solid.fa-quote-right {
+    padding-right: 1rem;
+}
+
+i.fas.fa-list-ol {
+    padding-right: 1rem;
+}
+
+.show-all {
+    padding-left: 2rem;
+    padding-bottom: 0.5rem;
+    color: #666666;
+    font-size: 13px;
+}
+
+thead.message-background {
+    background-color: #D7E9F2;
+}
+
+textarea.form-control.text-area {
+    height: 8rem;
+    border: none;
+    background-color: #EDF1F4;
+}
+
+p.attach{
+    color: #90bfe5;
+}
+
+
+//Inbox message
+
 .plan {
     border-radius: 3rem;
     border-style: solid;
@@ -75,29 +162,30 @@ align-items: center;
     background-color: transparent;
 }
 
+
 .number .number-dropdown a.numbers {
-color: #666666;
+    color: #666666;
 }
 
-.number-dropdown{
-    
-        width: 3.5rem;
-        height: 1.8rem;
-        border-style: solid;
-        border-radius: 2rem;
-        text-align: center;
-        border-color: #666666;
-        color: #666666;
+.number-dropdown {
+
+    width: 3.5rem;
+    height: 1.8rem;
+    border-style: solid;
+    border-radius: 2rem;
+    text-align: center;
+    border-color: #666666;
+    color: #666666;
 }
 
-img.rounded-circle{
-        border-style: solid;
-        border-color: aliceblue;
-        border-width: 0.2rem;
+img.rounded-circle {
+    border-style: solid;
+    border-color: aliceblue;
+    border-width: 0.2rem;
 }
 
 .rounded-circle {
-    border-radius: 50%!important;
+    border-radius: 50% !important;
     height: 4rem;
     width: 4rem;
 }
@@ -107,22 +195,22 @@ i.fas.fa-sign-out-alt {
     text-align: center;
 }
 
-span.signout{
+span.signout {
     font-size: 13px;
 }
 
-.table-background{
+.table-background {
     background-color: #EDF1F4;
     width: fit-content;
     padding: 3rem;
 }
 
-input.form-control {
-border-radius: 3rem;
+// input.form-control {
+// border-radius: 3rem;
 
-}
+// }
 
-.add-plan{
+.add-plan {
     text-align: end;
 }
 
@@ -147,7 +235,7 @@ border-radius: 3rem;
     // transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
-.show{
+.show {
     align-items: baseline;
 }
 
@@ -168,14 +256,14 @@ span.search {
     right: 3rem;
 }
 
-i.fas.fa-search{
+i.fas.fa-search {
     bottom: 2rem;
     left: 13rem;
     position: relative;
     color: #666666;
 }
 
-select.select-menu{
+select.select-menu {
     width: auto;
     padding: 0.375rem 0.75rem;
     font-size: 1rem;
@@ -194,7 +282,7 @@ table.table-head {
     color: #666666;
 }
 
-th.form-option{
+th.form-option {
     width: 16.8rem;
 }
 
@@ -225,13 +313,13 @@ img.table-image {
     padding-right: 0.5rem;
 }
 
-tr.baby-zone{
+tr.baby-zone {
     background-color: #E6EFF4;
     font-weight: bold;
     color: #4D4D4D;
 }
 
-tr.daycare{
+tr.daycare {
     background-color: #FFFFFF;
     color: #4D4D4D;
 }
@@ -281,12 +369,12 @@ a.numbers {
 
 //Conversation
 
-.conversation-background{
+.conversation-background {
     background-color: #EDF1F4;
     padding: 3rem;
 }
 
-h4.darius{
+h4.darius {
     color: #666666;
 }
 
@@ -296,11 +384,11 @@ textarea#exampleFormControlTextarea1 {
     border: 1.5px solid #666666;
 }
 
-.img-circle{
+.img-circle {
     width: 4rem;
 }
 
-.click-message{
+.click-message {
     text-align: end;
 }
 
@@ -340,26 +428,26 @@ span.christen {
     color: #9AC8EB;
 }
 
-p.abu-laban{
+p.abu-laban {
     color: #999999;
     font-size: 15px;
 }
 
-span.abu{
+span.abu {
     font-size: 17px;
     font-weight: bold;
     color: #666666;
 }
 
-span.super{
+span.super {
     font-size: 17px;
     color: #666666;
 }
 
-p.dated{
-        text-align: end;
-        font-size: 10px;
-        position: relative;
-        bottom: 0.7rem;
-        color: #666666;
+p.dated {
+    text-align: end;
+    font-size: 10px;
+    position: relative;
+    bottom: 0.7rem;
+    color: #666666;
 }

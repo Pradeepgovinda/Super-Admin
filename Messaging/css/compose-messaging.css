@@ -55,6 +55,84 @@ h3.nav-plan {
   font-size: 0.8em;
 }
 
+.compose {
+  background-color: #EDF1F4;
+  padding: 2.5rem !important;
+}
+
+span#inputGroup-sizing-default {
+  background-color: #D7E9F2;
+  font-weight: 500;
+  color: #666666;
+}
+
+table.message-table {
+  border-radius: 0.4rem;
+  border: 1px solid #cccccc;
+}
+
+th.send-to {
+  font-weight: 500;
+  color: #666666;
+}
+
+.form-check.all-center {
+  padding-bottom: 0.5rem;
+  color: #666666;
+}
+
+.form-check.selected-center {
+  padding-bottom: 0.5rem;
+  color: #666666;
+}
+
+input.subject {
+  background-color: #EDF1F4;
+}
+
+th.message-word {
+  color: #666666;
+  font-weight: 500;
+}
+
+i.fas.fa-bold {
+  padding-top: 0.5rem;
+  padding-right: 1rem;
+}
+
+i.fas.fa-underline {
+  padding-right: 1rem;
+}
+
+i.fa-solid.fa-quote-right {
+  padding-right: 1rem;
+}
+
+i.fas.fa-list-ol {
+  padding-right: 1rem;
+}
+
+.show-all {
+  padding-left: 2rem;
+  padding-bottom: 0.5rem;
+  color: #666666;
+  font-size: 13px;
+}
+
+thead.message-background {
+  background-color: #D7E9F2;
+}
+
+textarea.form-control.text-area {
+  height: 8rem;
+  border: none;
+  background-color: #EDF1F4;
+}
+
+p.attach {
+  color: #90bfe5;
+}
+
 .plan {
   border-radius: 3rem;
   border-style: solid;
@@ -106,10 +184,6 @@ span.signout {
   width: -moz-fit-content;
   width: fit-content;
   padding: 3rem;
-}
-
-input.form-control {
-  border-radius: 3rem;
 }
 
 .add-plan {

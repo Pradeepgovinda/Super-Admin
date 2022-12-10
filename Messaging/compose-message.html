@@ -18,9 +18,13 @@
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
     <link type="text/css" href="./css/compose-messaging.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"> -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css" integrity="sha512-P9vJUXK+LyvAzj8otTOKzdfF1F3UYVl13+F8Fof8/2QNb8Twd6Vb+VD52I7+87tex9UXxnzPgWA3rH96RExA7A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
 </head>
 
 <body>
@@ -31,7 +35,7 @@
                 <div
                     class="d-flex flex-column align-items-baseline align-items-sm-start px-3 pt-2 min-vh-100 .sidebar-tiny">
                     <a class="navbar-brand">
-                        <img src="./images/tiny-cloud.png"  alt="tiny-cloud" />
+                        <img src="./images/tiny-cloud.png" alt="tiny-cloud" />
                     </a>
                     <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-baseline align-items-sm-start"
                         id="menu">
@@ -41,7 +45,7 @@
                                     class="ms-1 d-none d-sm-inline text-white">Centers</span>
                             </a>
                         </li>
-                        
+
                     </ul>
 
                 </div>
@@ -110,37 +114,109 @@
                     </div>
                 </nav>
 
-                
                 <div class="container-fluid">
-                    <div class="container">
-                        <div class="row mt-5">
-                            <div class="col-12 message">
+                    <div class="container compose mt-5 mb-5">
 
-                                <h1>hello</h1>
-                                <div class="container">
-                                    <div class="row">
+                        <table class="table message-table">
+                            <thead class="message-background">
+                                <tr>
+                                    <th scope="col" class="send-to">Send To: </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">
+                                        <div class="form-check all-center">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                id="flexRadioDefault1">
+                                            <label class="form-check-label" for="flexRadioDefault1">
+                                                All center
+                                            </label>
+                                        </div>
+                                        <div class="form-check selected-center">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                id="flexRadioDefault2" checked>
+                                            <label class="form-check-label" for="flexRadioDefault2">
+                                                Selected Center
+                                            </label>
+                                        </div>
+                                        <div class="show-all">
+                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                                value="option1">
+                                            <img src="./images/education.png" class="table-image" alt="education logo"
+                                                loading="lazy" />
+                                            <span class="center-name">Baby zone daycare</span>
+                                        </div>
+                                        <div class="show-all">
+                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                                value="option1">
+                                            <img src="./images/education.png" class="table-image" alt="education logo"
+                                                loading="lazy" />
+                                            <span class="center-name">Banan daycare</span>
+                                        </div>
+                                        <div class="show-all">
+                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                                value="option1">
+                                            <img src="./images/education.png" class="table-image" alt="education logo"
+                                                loading="lazy" />
+                                            <span class="center-name">Ecotots</span>
+                                        </div>
+                                        <div class="show-all">
+                                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                                value="option1">
+                                            <img src="./images/education.png" class="table-image" alt="education logo"
+                                                loading="lazy" />
+                                            <span class="center-name">Mariam daycare</span>
+                                        </div>
 
-                                    <div class="col-12">
+                                    </th>
+                                </tr>
 
-                                    
-<div class="line">
-</div>
-</div>
-</div>
-</div>
-                            </div>
+                            </tbody>
+                        </table>
+
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="inputGroup-sizing-default">Subject:</span>
+                            <input type="text" class="form-control subject" aria-label="Sizing example input"
+                                aria-describedby="inputGroup-sizing-default">
                         </div>
 
+                        <table class="table message-table">
+                            <thead class="message-background">
+                                <tr>
+                                    <th scope="col" class="message-word">Message</br>
+                                        <i class="fas fa-bold"></i>
+                                        <i class="fas fa-underline"></i>
+                                        <i class="fa-solid fa-quote-right"></i>
+                                        <i class="fas fa-list-ol"></i>
+                                        <i class="fas fa-bars"></i>
+
+                                    </th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">
+                                        <textarea class="form-control text-area" rows="3"></textarea>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="attach"> <i class="fas-light fa-paperclip"></i>Attach File</p>
+
+                        <div class="col-sm mt-4 click-message">
+                            <button class="back" type="button">Back</button>
+                            <button class="reset" type="button">Reset</button>
+                            <button class="save" type="button"><i class="fa fa-paper-plane" aria-hidden="true"></i> Send
+                                Message</button>
+                        </div>
                     </div>
                 </div>
 
-
-
-
-                
-
-
-                
 
 
             </div>
